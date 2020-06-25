@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import Header from '../components/Header'
 
-class About extends Component {
+class SoonToCome extends Component {
   render() {
     return (
-      <div className="app">
+      <div>
         <Header />
-        <h1 className="header">This is the about Page</h1>
+        <h1 className="header">Soon To Come</h1>
       </div>
     )
   }
 }
-export default About
+
+export default SoonToCome

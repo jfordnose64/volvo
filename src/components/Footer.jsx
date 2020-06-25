@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar'
 class Footer extends Component {
   render() {
     return (
-      <Container>
+      <Container className="footer">
         <Navbar style={{ justifyContent: 'center' }}>
           <NavbarBrand>Volvo Parts LLC.</NavbarBrand>
         </Navbar>

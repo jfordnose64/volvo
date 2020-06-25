@@ -38,7 +38,11 @@ class Header extends Component {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>Soon to come</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/Soon-To-Come" className="link">
+                  Soon To Come
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>
               <Link to="/about" className="link-header">

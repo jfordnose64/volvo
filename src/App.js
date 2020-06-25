@@ -7,6 +7,7 @@ import Clearance from './Pages/Clearance'
 import './App.css'
 import Gallery from './Pages/Gallery'
 import Volvo from './Pages/Volvo'
+import SoonToCome from './Pages/SoonToCome'
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/Volvo">
           <Volvo />
+        </Route>
+        <Route exact path="/Soon-To-Come">
+          <SoonToCome />
         </Route>
       </Switch>
     </Router>

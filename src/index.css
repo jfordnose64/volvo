@@ -40,6 +40,7 @@ code {
 .img-container {
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -51,4 +52,14 @@ code {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.header {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
 }

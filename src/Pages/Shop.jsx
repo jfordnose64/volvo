@@ -6,7 +6,7 @@ class Shop extends Component {
     return (
       <div className="app">
         <Header />
-        <h1>This is the Shop Page</h1>
+        <h1 className="header">This is the Shop Page</h1>
       </div>
     )
   }
