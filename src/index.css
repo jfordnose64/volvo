@@ -31,3 +31,24 @@ code {
   color: white;
   text-decoration: none;
 }
+
+.clearance {
+  text-align: center;
+  padding: 2rem;
+}
+
+.img-container {
+  justify-content: center;
+  display: flex;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.image {
+  /* background-image: url('smiley.gif'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}

@@ -1,11 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Shop from './Pages/Shop'
 import About from './Pages/About'
 import Clearance from './Pages/Clearance'
 import './App.css'
 import Gallery from './Pages/Gallery'
+import Volvo from './Pages/Volvo'
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/shop">
+        <Route path="/Shop">
           <Shop />
         </Route>
-        <Route path="/about">
+        <Route path="/About">
           <About />
         </Route>
         <Route path="/Clearance">
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/Gallery">
           <Gallery />
+        </Route>
+        <Route path="/Volvo">
+          <Volvo />
         </Route>
       </Switch>
     </Router>
