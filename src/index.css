@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  text-align: center;
+}
+
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.link-header {
+  color: darkgray;
+}
+.link-header:hover {
+  color: white;
+  text-decoration: none;
+}
