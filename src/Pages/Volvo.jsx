@@ -6,7 +6,7 @@ class Volvo extends Component {
     return (
       <div className="app">
         <Header />
-        <h1 className="header">Volvo 240</h1>
+        <h1 className="header">Volvo Docs </h1>
       </div>
     )
   }

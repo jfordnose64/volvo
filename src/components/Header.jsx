@@ -29,7 +29,7 @@ class Header extends Component {
               </NavDropdown.Item>
               <NavDropdown.Item>
                 <Link to="/Volvo" className="link">
-                  Volvo 240
+                  Volvo Models
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>

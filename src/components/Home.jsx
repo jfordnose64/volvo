@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
+import Carousel from 'react-bootstrap/Carousel'
 import Image from '../Pictures/image.jpg'
 import { Link } from 'react-router-dom'
 import Header from './Header'
@@ -31,6 +32,59 @@ class Home extends Component {
             </Button>
           </p>
         </Jumbotron>
+        <Carousel
+          style={{
+            padding: '2rem',
+            borderRadius: '1rem',
+          }}
+        >
+          <Carousel.Item
+            style={{
+              borderStyle: 'solid',
+              borderColor: 'black',
+              borderWidth: '.7rem',
+              borderRadius: '1rem',
+            }}
+          >
+            <img className="d-block w-100" src={Image} alt="First slide" />
+            <Carousel.Caption>
+              <h3>First slide label</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item
+            style={{
+              borderStyle: 'solid',
+              borderColor: 'black',
+              borderWidth: '.7rem',
+              borderRadius: '1rem',
+            }}
+          >
+            <img className="d-block w-100" src={Image} alt="Third slide" />
+
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item
+            style={{
+              borderStyle: 'solid',
+              borderColor: 'black',
+              borderWidth: '.7rem',
+              borderRadius: '1rem',
+            }}
+          >
+            <img className="d-block w-100" src={Image} alt="Third slide" />
+
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
         <Footer />
       </div>
     )
