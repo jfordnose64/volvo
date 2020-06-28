@@ -41,6 +41,12 @@ class Shop extends Component {
             details="This is my POS"
             buttonName="Name1"
           />
+          <CardSale
+            image={Image}
+            title="Volvo 850"
+            details="This is my POS"
+            buttonName="Name1"
+          />
         </div>
       </div>
     )
