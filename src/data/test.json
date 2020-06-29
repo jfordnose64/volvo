@@ -1,28 +1,28 @@
 [
   {
     "linkTo": "/shop",
-    "image": "Image",
+    "image": "../Pictures/240.jpg",
     "buttonName": "Click Me",
     "title": "Angle kit",
     "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
   },
   {
     "linkTo": "/shop",
-    "image": "Image",
+    "image": "../Pictures/740.jpg",
     "buttonName": "Click Me",
     "title": "Angle kit",
     "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
   },
   {
     "linkTo": "/shop",
-    "image": "Image",
+    "image": "../Pictures/940.jpg",
     "buttonName": "Click Me",
     "title": "Angle kit",
     "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
   },
   {
     "linkTo": "/shop",
-    "image": "Image",
+    "image": "../Pictures/amazon.jpg",
     "buttonName": "Click Me",
     "title": "Angle kit",
     "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
