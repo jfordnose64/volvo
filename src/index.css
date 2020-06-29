@@ -63,3 +63,30 @@ code {
   text-align: center;
   padding: 2rem;
 }
+
+.carousel-1 {
+  /* margin: 2rem; */
+}
+
+.new-items {
+  border-color: red;
+  border-style: solid;
+  border-width: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.new-item-button {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .carousel-1 {
+    margin: 2rem;
+  }
+
+  .new-item-button {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+}
