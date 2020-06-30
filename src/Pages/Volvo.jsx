@@ -6,15 +6,22 @@ import data from '../data/test.json'
 
 class Volvo extends Component {
   render() {
-    const newModel = data.map((data) => {
+    const newModel = data.map((datas) => {
       return (
         <div>
           <CardSale
-            image={data.image}
-            title={data.title}
+            image={`${datas.image}`}
+            title={datas.title}
             details="This is my POS"
             buttonName="Name1"
           />
+          <CardSale
+            image={`${datas.image}`}
+            title={datas.title}
+            details="This is my POS"
+            buttonName="Name1"
+          />
+          {console.log(datas.image)}
         </div>
       )
     })
