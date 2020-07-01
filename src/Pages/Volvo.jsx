@@ -15,12 +15,6 @@ class Volvo extends Component {
             details="This is my POS"
             buttonName="Name1"
           />
-          <CardSale
-            image={`${datas.image}`}
-            title={datas.title}
-            details="This is my POS"
-            buttonName="Name1"
-          />
           {console.log(datas.image)}
         </div>
       )
