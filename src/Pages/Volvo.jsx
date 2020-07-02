@@ -15,7 +15,6 @@ class Volvo extends Component {
             details="This is my POS"
             buttonName="Name1"
           />
-          {console.log(datas.image)}
         </div>
       )
     })
