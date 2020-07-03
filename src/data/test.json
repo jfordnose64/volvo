@@ -26,5 +26,12 @@
     "buttonName": "Click Me",
     "title": "Angle kit",
     "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+  },
+  {
+    "linkTo": "/shop",
+    "image": "../Pictures/amazon.jpg",
+    "buttonName": "Click Me",
+    "title": "Angle kit",
+    "details": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
   }
 ]
