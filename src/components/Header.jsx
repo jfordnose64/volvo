@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand>Volvo 240 3D Prints</Navbar.Brand>
+        <Navbar.Brand>PartOut.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -21,26 +21,16 @@ class Header extends Component {
                 Home
               </Link>
             </Nav.Link>
-            <NavDropdown title="Store" id="basic-nav-dropdown">
+            <NavDropdown title="Vehicles" id="basic-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/shop" className="link">
-                  Shop
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to="/Volvo" className="link">
-                  Volvo Models
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to="/Clearance" className="link">
-                  Clearance
+                <Link to="/New" className="link">
+                  New
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
                 <Link to="/Soon-To-Come" className="link">
-                  Soon To Come
+                  Post your Vehicle
                 </Link>
               </NavDropdown.Item>
             </NavDropdown>

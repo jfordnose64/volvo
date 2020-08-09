@@ -8,6 +8,7 @@ import './App.css'
 import Gallery from './Pages/Gallery'
 import Volvo from './Pages/Volvo'
 import SoonToCome from './Pages/SoonToCome'
+import New from './Pages/New'
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
         <Route path="/About">
           <About />
         </Route>
-        <Route path="/Clearance">
-          <Clearance />
+        <Route path="/New">
+          <New />
         </Route>
         <Route path="/Gallery">
           <Gallery />
