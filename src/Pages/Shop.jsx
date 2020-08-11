@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Header from '../components/Header'
 import CardSale from '../components/Card'
 import Image from '../Pictures/image.jpg'
 
@@ -7,7 +6,6 @@ class Shop extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
         <h1 className="header">Print Shop</h1>
         <h2>Volvo Models Available</h2>
         <div className="img-container">

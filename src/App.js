@@ -9,34 +9,43 @@ import Gallery from './Pages/Gallery'
 import Volvo from './Pages/Volvo'
 import SoonToCome from './Pages/SoonToCome'
 import New from './Pages/New'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import NewListing from './Pages/NewListing'
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/Shop">
-          <Shop />
-        </Route>
-        <Route path="/About">
-          <About />
-        </Route>
-        <Route path="/New">
-          <New />
-        </Route>
-        <Route path="/Gallery">
-          <Gallery />
-        </Route>
-        <Route path="/Volvo">
-          <Volvo />
-        </Route>
-        <Route exact path="/Soon-To-Come">
-          <SoonToCome />
-        </Route>
-      </Switch>
-    </Router>
+    <div className="page-container">
+      <div className="content-wrap">
+        <Router>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/Shop">
+              <Shop />
+            </Route>
+            <Route path="/About">
+              <About />
+            </Route>
+            <Route path="/New">
+              <New />
+            </Route>
+            <Route path="/Gallery">
+              <Gallery />
+            </Route>
+            <Route path="/Volvo">
+              <Volvo />
+            </Route>
+            <Route exact path="/Create-New-Listing">
+              <NewListing />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+      <Footer />
+    </div>
   )
 }
 

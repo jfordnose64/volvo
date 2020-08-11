@@ -10,7 +10,6 @@ class Clearance extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
         <body className="clearance">
           <h1 style={{ fontSize: '4rem', color: 'red' }}>Clearance</h1>
           <div>

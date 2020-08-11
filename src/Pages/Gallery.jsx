@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Header from '../components/Header'
 import CardSale from '../components/Card'
 import Image from '../Pictures/image.jpg'
 import Footer from '../components/Footer'
@@ -8,7 +7,6 @@ class Gallery extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
         <h1 className="header"> Gallery</h1>
         <div className="img-container">
           <CardSale
@@ -35,7 +33,6 @@ class Gallery extends Component {
           <CardSale image={Image} title="Title" details="Lorem Ipsum" />
           <CardSale image={Image} title="Title" details="Lorem Ipsum" />
           <CardSale image={Image} title="Title" details="Lorem Ipsum" />
-          <Footer />
         </div>
       </div>
     )
