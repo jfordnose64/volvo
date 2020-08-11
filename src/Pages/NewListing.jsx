@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
 
 class NewListing extends Component {
   render() {
@@ -8,59 +11,53 @@ class NewListing extends Component {
       <div className="app">
         <div className="header">
           <h1>Here is a form</h1>
-          <div className="form">
-            <div className="column">
-              <div className="row">
-                <Form>
-                  <Form.Group controlId="formBasicEmail">
-                    <Form.Label style={{ fontSize: '2rem' }}>
-                      Email address
-                    </Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+          <Container>
+            <Col md={4}>
+              <h2>Select a Vehicle</h2>
+              <Form>
+                <Form.Group controlId="exampleForm.SelectCustomSizeLg">
+                  <h6 style={{ textAlign: 'left' }}>Year</h6>
+                  <Form.Control type="text" placeholder="Year" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.SelectCustomSizeLg">
+                  <h6 style={{ textAlign: 'left' }}>Make</h6>
+                  <Form.Control as="select">
+                    <option>Make</option>
+                    <option>Acura</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </Form.Control>{' '}
+                </Form.Group>
+                <Form.Group controlId="exampleForm.SelectCustomSizeLg">
+                  <h6 style={{ textAlign: 'left' }}>Model</h6>
+                  <Form.Control as="select">
+                    <option>Model</option>
+                    <option></option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </Form.Control>{' '}
+                </Form.Group>
+                <Form.Group controlId="exampleForm.SelectCustomSizeLg">
+                  <h6 style={{ textAlign: 'left' }}>Description</h6>
+                  <Form.Control as="textarea" rows="4" />
+                </Form.Group>
+              </Form>
+              {/* <Row>
+                <Col>
+                  <Form.Group>
+                    <Form.Control type="text" placeholder="Zip Code" />
                   </Form.Group>
-                  <Form.Group controlId="exampleForm.ControlSelect1">
-                    <Form.Label style={{ fontSize: '2rem' }}>
-                      Vehicle Make
-                    </Form.Label>
-                    <Form.Control as="select">
-                      <option>Select Make</option>
-                      <option>___________</option>
-                      <option>Audi</option>
-                      <option>Acura</option>
-                      <option>Alfa Romeo</option>
-                      <option>AMC</option>
-                      <option>BMW</option>
-                    </Form.Control>
+                </Col>
+                <Col>
+                  <Form.Group>
+                    <Form.Control type="text" placeholder="Zip Code" />
                   </Form.Group>
-                  <Form.Group controlId="exampleForm.ControlSelect1">
-                    <Form.Label style={{ fontSize: '2rem' }}>
-                      Vehicle Make
-                    </Form.Label>
-                    <Form.Control as="select">
-                      <option>Select Make</option>
-                      <option>___________</option>
-                      <option>Audi</option>
-                      <option>Acura</option>
-                      <option>Alfa Romeo</option>
-                      <option>AMC</option>
-                      <option>BMW</option>
-                    </Form.Control>
-                  </Form.Group>
-
-                  <Form.Group controlId="formBasicPassword">
-                    <Form.Label style={{ fontSize: '2rem' }}>
-                      Password
-                    </Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                  </Form.Group>
-
-                  <Button variant="primary" type="submit">
-                    Submit
-                  </Button>
-                </Form>
-              </div>
-            </div>
-          </div>
+                </Col>
+              </Row> */}
+            </Col>
+          </Container>
         </div>
       </div>
     )
