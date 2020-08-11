@@ -17,7 +17,7 @@ function PartOutItem(props) {
               backgroundSize: 'auto 100%',
             }}
           />
-          <Card.Title style={{ padding: '0.5rem' }}>{props.title}</Card.Title>
+          <Card.Title style={{ padding: '0.3rem' }}>{props.title}</Card.Title>
           <Card.Text>{props.bodyText}</Card.Text>
           <Button variant="primary">{props.buttonTitle}</Button>
         </Card.Body>
