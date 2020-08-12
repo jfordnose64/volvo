@@ -8,78 +8,63 @@ class New extends Component {
   render() {
     return (
       <div className="app">
+        <div className="header">
+          <h1>New Listing's</h1>
+        </div>
         <div className="new-item-container">
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
           <PartOutItem
-            header="New"
             image={Image}
-            title="2005 Subaru Outback XT Limited 5spd"
-            bodyText="215,000 miles with rear end damage."
-            buttonTitle="Learn More"
-            createdAt="1 week ago"
+            title="1973 Porsche 911T Coupe"
+            details="This 1973 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Koni dampers, lower rocker trim, and a 911S-style front spoiler."
+            buttonName="Learn More"
           />
         </div>
       </div>

@@ -27,6 +27,11 @@ class Header extends Component {
                   New
                 </Link>
               </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/Vehicles" className="link">
+                  Vehicles Available
+                </Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
                 <Link to="/Create-New-Listing" className="link">

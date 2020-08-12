@@ -1,17 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
-import Shop from './Pages/Shop'
 import About from './Pages/About'
-import Clearance from './Pages/Clearance'
 import './App.css'
 import Gallery from './Pages/Gallery'
-import Volvo from './Pages/Volvo'
-import SoonToCome from './Pages/SoonToCome'
 import New from './Pages/New'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import NewListing from './Pages/NewListing'
+import VehiclesPage from './Pages/VehiclesPage'
 
 function App() {
   return (
@@ -23,9 +20,7 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/Shop">
-              <Shop />
-            </Route>
+
             <Route path="/About">
               <About />
             </Route>
@@ -35,8 +30,8 @@ function App() {
             <Route path="/Gallery">
               <Gallery />
             </Route>
-            <Route path="/Volvo">
-              <Volvo />
+            <Route path="/Vehicles">
+              <VehiclesPage />
             </Route>
             <Route exact path="/Create-New-Listing">
               <NewListing />
