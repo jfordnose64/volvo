@@ -14,7 +14,7 @@ export const VehiclesPage = (props) => {
           <PartOutItem
             image={Image}
             title="1973 Porsche 911T Coupe"
-            details="This 1974 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Bilstein dampers yellow, lower rocker trim, and a 911S-style front spoiler."
+            details="This 1974 Porsche 911T coupe was built in March of 1973 and is powered by its numbers-matching 2.4L flat-six. Finished in Viper Green over black, the car is equipped with fuel injection, a Type 915 five-speed manual transaxle, 15″ Fuchs wheels, Hoyo dampers yellow, lower rocker trim, and a 911S-style front spoiler."
             buttonName="Learn More"
           />
           <PartOutItem
